@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset = "UTF-8" />
+	<title> The attempt </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+	background: #F1F0D1;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size:18px;
+	overflow:auto;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	padding-left: 5px;
+	color: #878E63;
+}
+
+p {
+	padding: 2%;
+	color: #878E63;
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	background: FEFBE8;
+	border: 1px solid #878e63;
+	border-radius: 2px;
+	box-shadow:0 0 10px 0px rgba(12,3,25,0.8);
+	/*max-width: 1020px;
+	width:98%;*/
+}
+
+#callout{
+	width: 100%;
+	height: auto;
+	background:#878E63;
+	overflow:hidden;
+}
+
+#callout p {
+	text-align:right;
+	color:#F1F0D1;
+	font-size: 13px;
+	padding:0.1% 5% 0 0;
+}
+
+#callout p a {				/*phone number will be underlined and different color on mobile device */
+	color: #F1F0D1;
+	text-decoration: none;
+}
+
+header {
+	width: 96%;
+	min-height:125px;
+	padding:5px;
+	text-align:center;
+}
+
+nav ul {
+	list-style: none;  /* to remove dots in unodered list*/
+	margin:0;
+	padding-left: 50px;
+}
+ 
+nav ul li{
+	float:left;		/*horizontal list */
+	border:1px solid #878E63;
+	width: 15%;
+}
+
+nav ul li a{
+	background: #F1F0D1;
+	display: block;
+	padding:5% 12%;
+	font-weight=bold;
+	color: #878E63;
+	text-decoration:none;
+	text-align:center;
+}
+
+nav ul li a:hover, nav ul li.active a{
+	background-color:#878E63;
+	color: #F1F0D1;
+}
+
+.banner img {
+	width:100%;
+	border-top: 1px solid #878E63;
+	border-bottom: 1px solid #878E63;
+}
+
+.left-col{
+	width: 55%;
+	float:left;
+	margin: -2% 1% 1% 1%;
+}
+
+.sidebar{
+	width:40%;
+	float:right;
+	margin: 1%;
+	text-align:center;
+}
+
+.therapy {
+	float:left;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	padding:1%;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.section{
+	width:28%;
+	float:left;
+	margin:2% 2%;
+	text-align:center;
+}
+
+footer{
+	background:#878E63;
+	width:100%;
+	overflow:hidden;
+}
+
+footer p, footer h3{
+	color:#F1F0D1;
+}
+
+footer p a {
+	color:#F1F0D1;
+	text-decoration:none;
+}
+
+footer ul {
+	list-style-type: none;  /* to remove dots in unodered list*/
+	margin:0;
+	padding:0;
+}
+
+footer ul li{
+	display:inline;
+}
+
+footer ul li img{
+	height:50px;	
+}
+
+/*--------------------------MEDIA!!!!--------------------------*/
+@media screen and (max-width: 478px){
+	body{
+		font-size:13px;
+	}
+}
+
+@media screen and (max-width: 740px){
+	nav{
+		width:100%;
+		margin-bottom: 10px;
+	}
+	nav ul {
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	nav ul li{
+		text-align:center;
+		margin-left:0 auto;
+		width:100%;
+		border-top: 1px solid #878E63;
+		border-right: 0px solid #878E63;
+		border-bottom: 1px solid #878E63;
+		border-left: 0px solid #878E63;
+	}
+	nav ul li a{
+		padding:8px 0;
+		font-size:16px;
+	}
+	.sidebar, .left-col{
+		width:100%;
+	}
+	.section{
+		float:left;
+		width:100%;
+		margin:0;
+	}
+}
+	
+</style>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="callout">
+			<p>Call me at <strong>312-823-8768</strong></p>
+		</div>
+
+		<header>
+			<a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/massagelogo.png" alt="Massage by Tia" title="Massage by Tia"></a>
+		</header>
+
+		<nav>
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Facility</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Hours</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+			
+		</nav>
+
+		<div class="banner">
+			<img src="http://www.w3newbie.com/wp-content/uploads/massagebanner.png" alt="Massage banner" title="Massage banner">
+		</div>
+
+		<center><img src="http://www.w3newbie.com/wp-content/uploads/three_sayings.png" alt="three sayings" title="three sayings"></center>
+
+		<section class="left-col">
+			<p style="text-indent:50px">Don’t have time for a full massage session?  Try our 30 Minute Express Massage!  Scientists have proved that the psychological and physiological state of patients with tension headache improves within 24 hours after receiving a 30 Minute massage.</p>
+			<p style="text-indent:50px">Enjoy a journey of “mind and soul” away from everyday stresses. Using massage creams with a tinge of selected essential oils, the massage results in improved circulation, deep relaxation and calmness for the rest of your day. Massage pressure varies from light to firm for each individual.</p>
+		</section>
+
+		<aside class="sidebar">
+			<div class="therapy">
+				<img src="http://www.w3newbie.com/wp-content/uploads/therapist.jpg" alt="therapist" title="therapist">
+			</div>
+		</aside>
+		<div class="clearfix"></div>
+		<div class="section">
+			<h3>Aromatherapy/ Massage</h3>
+			<img src="http://www.w3newbie.com/wp-content/uploads/private.png">
+			<p>Our Swedish massage combined with the aroma of essential oils.  These essentials oils are the extracts of plants and their parts and form their life force. These oils are extracted by the means of steam distillation, cold expression, or fixed oil or alcohol extraction.</p>
+		</div>
+
+		<div class="section">
+			<h3>Deep Tissue Massage</h3>
+			<img src="http://www.w3newbie.com/wp-content/uploads/sauna-steam.png">
+			<p>Firm pressure and deep compression are applied to loosen restricted muscles, aid the healing of injured tissue, stimulate circulation and relieve aches and pains.  Unlike classic massage therapy, which is used for relaxation, deep tissue massage usually focuses on a specific problem.</p>
+		</div>
+
+		<div class="section">
+			<h3>Hot Stone Massage</h3>
+			<img src="http://www.w3newbie.com/wp-content/uploads/retreat.png">
+			<p>Penetrating heat of stones enhances relaxation response and help to melt away stress and tension.  The heat from the stones relaxes muscles and increases the blood flow to the area being worked on which further accelerates the healing process.</p>
+		</div>
+
+		<center><img src="http://www.w3newbie.com/wp-content/uploads/ease.png"></center>
+			
+		<footer>
+			<div class="section">
+				<p>Massage by Tia</p> 
+				<p><b>312-231-2121</b><br>xxxx,S. Taylor Street<br>Chicago, IL 60607<br>sanket@gmail.com</p>
+			</div>
+
+			<div class="section">
+				<p>connect with us</p>
+				<ul>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"></a></li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<img src="http://www.w3newbie.com/wp-content/uploads/plant.png">
+			</div>
+		</footer>
+
+
+	</div>
+
+		<p style="text-align: center; padding:0px;">&#169;Copyright - Massage by Sanket, 2014.</p>
+
+</body>
+
+</html>
